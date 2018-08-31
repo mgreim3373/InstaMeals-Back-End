@@ -4,6 +4,7 @@ curl --include --request POST "http://localhost:4741/recipes" \
   --header "Authorization: Token token=${TOKEN}" \
   --data '{
     "recipe": {
+      "name": "'"${NAME}"',
       "prep_time": "'"${PREPTIME}"'",
       "cook_time": "'"${COOKTIME}"'",
       "serving_size": "'"${SIZE}"'",
