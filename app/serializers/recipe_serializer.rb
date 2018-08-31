@@ -1,4 +1,4 @@
 class RecipeSerializer < ActiveModel::Serializer
   attributes :id, :prep_time, :cook_time, :serving_size, :pot_mode, :pot_pressure, :ingredient, :prep_instruction
-  has_one :user_id
+  has_one :user
 end

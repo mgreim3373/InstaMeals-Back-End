@@ -2,7 +2,7 @@ class CreateRecipes < ActiveRecord::Migration[5.1]
   def change
     create_table :recipes do |t|
       t.integer :prep_time
-      t.references :user_id, foreign_key: true
+      t.references :user, foreign_key: true
       t.integer :cook_time
       t.integer :serving_size
       t.string :pot_mode
