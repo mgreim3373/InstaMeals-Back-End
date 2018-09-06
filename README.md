@@ -10,7 +10,7 @@ Planning and Creation Process: This project was started with the goal of buildin
 
 Unsolved Issues: I plan on updating this project in the future by adding ingredients as an additional resource. I plan on joining this resource to my recipes table using a many to many relationship. During the project I ran into some issues validating data using Postgresql.
 
-Wireframes and User Stories: https://github.com/mgreim3373/Tic-Tac-Toe/blob/44af7639cd6b2c07aa46b4bc50012c01f9b9060e/Wireframes.jpg
+ERD: https://github.com/mgreim3373/Rails-Application/blob/master/ERD.jpg
 
 Back-end site: https://rails-application.herokuapp.com/
 Front-end site: https://mgreim3373.github.io/Rails-Application-Front-End/
