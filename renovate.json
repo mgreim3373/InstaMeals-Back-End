@@ -4,6 +4,7 @@
     "config:recommended"
   ],  
   "timezone": "America/New_York",
+  "prHourlyLimit": 100,
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
@@ -13,12 +14,4 @@
       "platformAutomerge": false
     },
   ],
-  "packageRules": [
-    {
-      "matchPackagePatterns": ["bcrypt"],
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true,
-      "platformAutomerge": false
-    }
-  ]
 }
