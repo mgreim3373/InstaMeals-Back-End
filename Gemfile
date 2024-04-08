@@ -11,7 +11,7 @@ gem 'rack-cors', '~> 1.0.2', require: 'rack/cors'
 gem 'rails', '~> 5.1.3'
 
 group :development, :test do
-  gem 'byebug', '~> 10.0.0', platform: :mri
+  gem 'byebug', '~> 11.1.0', platform: :mri
   gem 'dotenv-rails', '~> 2.2.1'
   gem 'pry', '~> 0.11.3'
   gem 'pry-byebug', '~> 3.6.0'
