@@ -12,6 +12,7 @@
       "schedule": ["after 10pm and before 5:00am"],
       "platformAutomerge": false
     },
+  ],
   "packageRules": [
     {
       "matchPackagePatterns": ["bcrypt"],
