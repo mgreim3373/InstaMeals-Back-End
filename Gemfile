@@ -22,7 +22,7 @@ end
 group :development do
   gem 'listen', '~> 3.1.5'
   gem 'pry-rails', '~> 0.3.6'
-  gem 'spring', '~> 2.0.2'
+  gem 'spring', '~> 4.2.0'
   gem 'spring-commands-rspec', '~> 1.0.4'
 end
 
